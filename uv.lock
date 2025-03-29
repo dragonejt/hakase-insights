@@ -414,10 +414,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel", specifier = ">=6.29.5" },
-    { name = "jupyterlab", specifier = ">=4.3.6" },
-    { name = "langchain-community", specifier = ">=0.3.20" },
-    { name = "python-dotenv", specifier = ">=1.0.1" },
+    { name = "ipykernel" },
+    { name = "jupyterlab" },
+    { name = "langchain-community" },
+    { name = "python-dotenv" },
 ]
 
 [[package]]
