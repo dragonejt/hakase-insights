@@ -1,0 +1,1 @@
+web: "uv run app/server.py"
