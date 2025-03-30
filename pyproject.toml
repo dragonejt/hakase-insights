@@ -16,4 +16,5 @@ dependencies = [
 dev = [
     "jupyterlab",
     "langchain-cli",
+    "ruff",
 ]
