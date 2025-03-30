@@ -465,7 +465,6 @@ name = "hakase-insights"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-community" },
     { name = "langserve", extra = ["all"] },
@@ -474,6 +473,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "ipykernel" },
     { name = "jupyterlab" },
     { name = "langchain-cli" },
     { name = "ruff" },
@@ -481,7 +481,6 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-community" },
     { name = "langserve", extras = ["all"] },
@@ -490,6 +489,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "ipykernel" },
     { name = "jupyterlab" },
     { name = "langchain-cli" },
     { name = "ruff" },
