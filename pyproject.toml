@@ -5,9 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi[standard]>=0.115.12",
     "ipykernel",
-    "jupyterlab",
+    "langchain",
     "langchain-community",
+    "langserve[all]",
     "python-dotenv",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab",
+    "langchain-cli",
 ]
