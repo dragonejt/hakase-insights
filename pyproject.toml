@@ -8,13 +8,30 @@ dependencies = [
     "langchain",
     "langchain-community",
     "langserve[all]",
-    "python-dotenv",
+    "uvicorn[standard]",
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel",
-    "jupyterlab",
     "langchain-cli",
     "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+extend-exclude = [
+    "**/migrations/*"
+]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestype warnings
+    "F",    # Pyflakes
+    "PL",   # Pylint
+    "I",    # isort
+    "C90",  # mccabe
+    "FAST", # FastAPI
 ]
