@@ -3,6 +3,12 @@ name = "hakase-insights"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+license = "MPL-2.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+]
 requires-python = ">=3.13"
 dependencies = [
     "langchain",
@@ -10,6 +16,11 @@ dependencies = [
     "langserve[all]",
     "uvicorn[standard]",
 ]
+
+[project.urls]
+homepage = "https://hakase-insights.dragonejt.dev"
+source = "https://github.com/dragonejt/hakase-insights.git"
+issues = "https://github.com/dragonejt/hakase-insights/issues"
 
 [dependency-groups]
 dev = [
