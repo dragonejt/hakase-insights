@@ -1,7 +1,7 @@
 [project]
 name = "hakase-insights"
 version = "0.1.0"
-description = "Add your description here"
+description = "Class Academic Insights from hakase"
 readme = "README.md"
 license = "MPL-2.0"
 classifiers = [
@@ -14,7 +14,7 @@ dependencies = [
     "langchain",
     "langchain-community",
     "langserve[all]",
-    "sentry-sdk[fastapi]>=2.25.1",
+    "sentry-sdk[fastapi]",
     "uvicorn[standard]",
 ]
 
